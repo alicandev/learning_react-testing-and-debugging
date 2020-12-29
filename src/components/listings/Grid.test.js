@@ -33,6 +33,6 @@ test('The first course has a property title', () => {
 });
 
 test('The first course has a property title and value of 31,266', () => {
-  expect(data[0]).toHaveProperty('title', '31,266');
+  expect(data[0]).toHaveProperty('views', '31,266');
 });
 
